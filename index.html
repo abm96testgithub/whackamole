@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MMP 210 Midterm</title>
+    
+        <script src="p5.js"></script>
+        <script src="midterm.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="main.css" rel="stylesheet" type="text/css">
+    
+    
+    </head>
+
+
+    <body>
+        
+    <div id="header">
+    
+        <h2 id="headerTitle">Whack-A-Mole!</h2>
+
+        <div id="smallText">
+            <p id="instructions">Click "Begin" when ready and try to whack all of the moles <br>as quickly as you can before time runs out!</p>
+
+            <p > 
+                <span id="timer">Time left: <span id="timerVar"></span></span>
+                <span id="score">Your score:</span> <span id="playerScore">0</span>
+            </p>
+            
+
+           
+        </div>
+    
+         <button id="startButton" onclick="startGame();startTimer()">Begin!</button>
+    </div>
+    
+    <div id="sketchContainer">
+        <div id="sketch-holder">
+        </div>
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #83d5d8;
+}
+
+body {
+    width: 900px;
+
+}
+
+#sketch-holder{
+    width: 520px;
+    
+}
+
+#header{
+    text-align: center;
+    margin: 30px 60px;
+    padding: 10px;
+    background-color: #c6eeef;
+    border-radius: .5;
+    border: 5px #a7edef solid;
+    
+}
+
+#header h2{
+    padding-top: 10px;
+    color: #ffd449;
+    font-size: 80px;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 900;
+    background-color: #c6eeef;
+}
+
+#header p{
+    padding: 8px;
+    background-color: #c6eeef;
+    color: #434343;
+}
+#smallText{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #c6eeef;
+}
+
+#score{
+    font-weight: 600;
+    padding-left: 13px;
+    border-left: 4px #ffd449 solid;
+    background-color: #c6eeef;
+}
+
+#playerScore{
+    font-weight: 400;
+    background-color: #c6eeef;
+}
+
+#timer{
+    background-color: #c6eeef;
+    padding-right: 10px;
+}
+
+#timerVar {
+    background-color: #c6eeef;
+}
+#startButton{
+    background-color: #8edcc7;
+    border: .5px #c6eeef; solid;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    width: 85px;
+}
+
+#startButton:hover{
+    transition: .2s;
+    background-color: #ace5d6;
+    border: .5px #a7edef; solid;
+}
+
+#sketch-holder {
+    display: none;
+    
+}
+
+#sketchContainer{
+    width: 530px;
+    height: 480px;
+    background-color: #d3ffe9;
+}
